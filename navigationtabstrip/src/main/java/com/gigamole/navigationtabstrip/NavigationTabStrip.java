@@ -279,7 +279,7 @@ public class NavigationTabStrip extends View implements ViewPager.OnPageChangeLi
     }
 
     public void setTitles(final String... titles) {
-        for (int i = 0; i < titles.length; i++) titles[i] = titles[i].toUpperCase();
+        for (int i = 0; i < titles.length; i++) titles[i] = titles[i];
         mTitles = titles;
         requestLayout();
     }
